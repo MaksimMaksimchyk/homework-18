@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">homework-18</string>
+    <string name="card_title">Заголовок карточки</string>
+
+    <string name="ex1Text">Задача 1: Переход через несколько фрагментов с сохранением состояний</string>
+    <string name="ex2Text">Задача 2: Переход между фрагментами с передачей аргументов</string>
+    <string name="ex3Text">Задача 3: Обработка возвращаемых данных из фрагмента</string>
+
+
 </resources>
