@@ -6,5 +6,10 @@
     <string name="ex2Text">Задача 2: Переход между фрагментами с передачей аргументов</string>
     <string name="ex3Text">Задача 3: Обработка возвращаемых данных из фрагмента</string>
 
+    <string name="ex1ExtraText">3 фрагмента и переход между ними через NavGraph</string>
+    <string name="ex2ExtraText">Передача данных через NavGraph</string>
+    <string name="ex3ExtraText">Передача данных через setResult() </string>
+
+
 
 </resources>
