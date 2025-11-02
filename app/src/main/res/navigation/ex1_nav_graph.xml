@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ex1_nav_graph"
+    app:startDestination="@id/ex1HomeFragment"
+    >
+
+    <fragment
+        android:id="@+id/ex1HomeFragment"
+        android:name="com.example.homework_18.Ex1HomeFragment"
+        android:label="Ex1HomeFragment"
+
+        >
+        <action
+            android:id="@+id/action_ex1HomeFragment_to_ex1DetailsFragment"
+            app:destination="@id/ex1DetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ex1DetailsFragment"
+        android:name="com.example.homework_18.Ex1DetailsFragment"
+        android:label="Ex1DetailsFragment" >
+        <action
+            android:id="@+id/action_ex1DetailsFragment_to_ex1SettingsFragment"
+            app:destination="@id/ex1SettingsFragment" />
+        <action
+            android:id="@+id/action_ex1DetailsFragment_to_ex1HomeFragment"
+            app:destination="@id/ex1HomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ex1SettingsFragment"
+        android:name="com.example.homework_18.Ex1SettingsFragment"
+        android:label="Ex1SettingsFragment" >
+        <action
+            android:id="@+id/action_ex1SettingsFragment_to_ex1DetailsFragment"
+            app:destination="@id/ex1DetailsFragment" />
+    </fragment>
+</navigation>
