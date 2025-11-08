@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ex3_nav_graph.xml"
+    app:startDestination="@id/ex3FirstFrgment">
+
+    <fragment
+        android:id="@+id/ex3FirstFrgment"
+        android:name="com.example.homework_18.Ex3FirstFragment"
+        tools:layout="@layout/ex3_first_fragment"
+        android:label="Ex3FirstFrgment">
+        <action
+            android:id="@+id/action_ex3FirstFrgment_to_ex3SecondFragment"
+            app:destination="@id/ex3SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ex3SecondFragment"
+        tools:layout="@layout/ex3_second_fragment"
+        android:name="com.example.homework_18.Ex3SecondFragment"
+        android:label="Ex3SecondFragment" />
+</navigation>
