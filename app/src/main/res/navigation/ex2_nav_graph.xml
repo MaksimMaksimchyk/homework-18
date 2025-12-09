@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ex2_nav_graph.xml"
+    app:startDestination="@id/ex2FirstFragment">
+
+
+    <fragment
+        android:id="@+id/ex2FirstFragment"
+        android:name="com.example.homework_18.Ex2FirstFragment"
+        android:label="Ex2FirstFragment"
+        tools:layout="@layout/ex2_first_fragment">
+        <action
+            android:id="@+id/action_ex2FirstFragment_to_ex2SecondFragment"
+            app:destination="@id/ex2SecondFragment">
+            <argument
+                android:name="input_text"
+                app:argType="string" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/ex2SecondFragment"
+        android:name="com.example.homework_18.Ex2SecondFragment"
+        android:label="Ex2SecondFragment"
+        tools:layout="@layout/ex2_second_fragment">
+        <argument
+            android:name="input_text"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

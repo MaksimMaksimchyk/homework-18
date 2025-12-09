@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework18">
         <activity
+            android:name=".Ex3MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex2MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex1MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
